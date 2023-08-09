@@ -1,0 +1,152 @@
+/* Page and body */
+
+body {
+
+  margin: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 28px;
+
+  background: #2C2B3D;
+
+  min-height: 100vh;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+.page {
+
+  width: 1095px;
+  margin: 0 auto;
+  padding-top: 70px;
+  justify-content: center;
+
+}
+
+/* Nav (Header) */
+
+nav { 
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+
+}
+
+nav ul {
+
+  list-style: none;
+  display: flex;
+  gap: 64px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  font-family:'JetBrains Mono', monospace;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+/* Hero/Main */
+
+main {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 160px;
+
+}
+
+main img {
+
+  padding-right: 80px;
+
+}
+
+main .text {
+
+  text-align: center; /* When you are writting a text, you can use the text-align center */
+
+}
+
+h1 {
+
+  font-family:'JetBrains Mono', monospace;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 60px;
+
+}
+
+span {
+
+  color: #00BFA6;
+
+}
+
+p {
+
+  color: #C2C2C2;
+  font-size: 16px;
+  font-weight: 400px;
+  
+}
+
+p:first-of-type {
+
+  padding-bottom: 10px;
+
+}
+
+p strong, p span {
+
+  font-weight: 700;
+ 
+}
+
+/* Line, Footer and Padlock */
+
+.line { 
+  
+  width: 570px;
+  height: 1px;
+  background: #00BFA6;
+  margin: 0 auto;
+
+}
+
+footer {
+
+  text-align: center;
+  font-family:'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: end;
+
+}
+
+footer a {
+
+  margin: 0 auto;
+
+}
+
+#padlock {
+
+  margin-left: -30px;
+
+}
